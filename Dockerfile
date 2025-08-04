@@ -1,6 +1,6 @@
 # Explicitly specify `noble` to keep the Swift & Ubuntu images in sync.
 ARG BUILDER_IMAGE=swift:6.0-noble
-ARG RUNTIME_IMAGE=ubuntu:noble
+ARG RUNTIME_IMAGE=ubuntu:24.10
 
 # Builder image
 FROM ${BUILDER_IMAGE} AS builder
